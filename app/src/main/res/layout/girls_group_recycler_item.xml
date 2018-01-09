@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/ripple_custom_bg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/girls_group_member_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:transitionName="@string/girl_transition_name"
+        android:layout_marginRight="16dp"/>
+    <TextView
+        android:id="@+id/member_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"/>
+</LinearLayout>

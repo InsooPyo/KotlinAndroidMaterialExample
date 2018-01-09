@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_group_add_black_24dp"
+            android:title="친구초대" />
+        <item
+            android:icon="@drawable/ic_sms_black_24dp"
+            android:title="메세지" />
+        <item
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="일정보기" />
+        <item
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:title="행사예약" />
+    </group>
+    <item android:title="기타">
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_brightness_high_black_24dp"
+                android:title="환경설정" />
+            <item
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="도움말" />
+        </menu>
+    </item>
+</menu>
