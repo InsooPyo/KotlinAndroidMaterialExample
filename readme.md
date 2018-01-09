@@ -61,7 +61,7 @@ class GirlGroupGlideModule: AppGlideModule(){
     override fun applyOptions(context: Context?, builder: GlideBuilder?){
         super.applyOptions(context, builder)
 
-        val cacheCalculator =                                                                                MemorySizeCalculator.Builder(context).build()
+        val cacheCalculator = MemorySizeCalculator.Builder(context).build()
         val defaultMemoryCacheSize = cacheCalculator.memoryCacheSize
         val defaultBitmapPoolSize = cacheCalculator.bitmapPoolSize
 
@@ -99,7 +99,7 @@ class FABHideWhenScrollingBehavior: FloatingActionButton.Behavior {
     /*
      * FloatActionButton의 Dependency View(Current RecyclerView)
      */
-    override fun layoutDependsOn(parent: CoordinatorLayout?, child:                                       FloatingActionButton?, dependency: View?)
+    override fun layoutDependsOn(parent: CoordinatorLayout?, child:FloatingActionButton?, dependency: View?)
        = dependency is RecyclerView
 
     /*
