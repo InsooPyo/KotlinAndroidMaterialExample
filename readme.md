@@ -2,7 +2,7 @@
 * **Kotlin Girls Group version[소녀시대,트와이스]**
 * **DrawerLayout**
 * **NavigationView**
-* **FloatActionButton hide/show **
+* **FloatActionButton hide/show**
 * **FABHideWhenScrollingBehavior(app:layout_behavior)**
 * **[Glide 4.4.0](https://github.com/bumptech/glide/releases)**
 * **TabLayout**
